@@ -117,3 +117,9 @@ a:hover {
 	padding: 0.4em 0.8em;
 	margin-bottom: 1.5em;
 }
+
+/* Sections still in progress */
+.wip {
+	color: #c0392b;
+	cursor: default;
+}
