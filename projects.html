@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="author" content="Veer Patel"/>
+	<meta name="description" content="Personal website of Veer Patel, Computer Science student at London South Bank University."/>
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="icon" href="favicon.ico"/>
+	<title>Projects — Veer Patel</title>
+</head>
+<body>
+	<div id="header">
+		<p><a href="index.html">Home</a> • <a href="about.html">About</a> • <b><a href="projects.html">Projects</a></b> • <a href="contact.html">Contact</a></p>
+	</div>
+
+	<div id="content">
+		<h2>Projects</h2>
+		<p class="dc"><span class="sc">Road accident</span> severity analysis (Havering, 4,023 accidents). Using police-recorded accidents in a London borough, I mined association rules to find combinations of conditions linked to serious outcomes: 25 of 64 single-vehicle accidents in street-lit darkness near a crossing were serious, 3.25 times the overall rate. I then selected among 72 decision trees using an assumed 9:1 cost of a missed serious accident against a false alarm, which raised validation recall from 50.5% to 62.9% compared with selection by F1. Repeating the selection over 20 splits and testing on a later year showed where the model helped and where it did not.</p><br/>
+		<p class="dc"><span class="sc">Keyword-level</span> sentiment analysis of Amazon reviews (honours project, in progress). I audited the Amazon Reviews 2023 software category, found that Android apps made up about 90% of its reviews, and restricted the study to about 459,000 other reviews. Because star ratings describe a whole review, I designed a separate evaluation set of review–keyword pairs for manual labelling. I have implemented TF-IDF, Naive Bayes and logistic regression from scratch in NumPy to compare with standard libraries and a pretrained transformer.</p><br/>
+		<p class="dc"><span class="sc">Relational database</span> and analytics dashboard. From a business case study, I designed a 17-entity schema normalised to 3NF/BCNF, implemented it in SQL Server with constraints, a trigger and stored procedures, and built a Power BI dashboard on top of it.</p>
+	</div>
+</body>
+</html>
